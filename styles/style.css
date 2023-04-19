@@ -6,18 +6,145 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;800&display=swap');
+
+
 body {
-    width: 100vw;
+    width: 100%;
+    font-family: 'Mulish';
 }
 
 nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+    
+    
+li {
+    list-style-type: none;
+    width: 80px;
+    color: black;
+}
+
+#green-logo {
+    width: 150px;
+    margin: 10px;
+}
+
+#concert-image {
+    display: block;
+    width: 100%;
+    background-position: center;
+}
+
+h1 {
+    font-size: 70px;
     width: 100%;
 }
 
-.list {
-    list-style-type: none;
+.title {
+    color: #FFF;
+    text-align: center;
+    position: absolute;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.green-logo {
-    width: 150px;
+.text-title {
+    font-size: 25px;
+    font-weight: lighter;
+    width: 80%;
+    margin-left: 10%;
 }
+
+#centered-text {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#line {
+    border: 1px solid #00B172;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 50px;
+}
+
+.icons-image {
+    width: 70px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    margin-left: 150px;
+}
+
+.icons-title{
+    color: #00B172;
+    font-size: 25px;
+    margin: 0;
+}
+
+.icons-text {
+    width: 60%;
+    margin-left: 20%;
+}
+
+#background {
+    background-color: #00B172;
+    width: 90%;
+    color: #FFF;
+    margin-left: 5%;
+}
+
+#background-title {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+#line2 {
+    border: 1px solid #FFF;
+    width: 50%;
+    margin-left: 0;
+}
+
+#white-logo {
+    width: 100px;
+    margin-top: 300%;
+}
+
+#app-photo {
+    width: 250px;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.background-text {
+  width: 50%;
+}
+
+#background-align {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+#background-information {
+    width: 50%;
+    margin-top: 5%;
+}
+
