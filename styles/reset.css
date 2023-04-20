@@ -1,4 +1,4 @@
-body {
+body, nav, ul, li {
     margin: 0;
     padding: 0;
 }
